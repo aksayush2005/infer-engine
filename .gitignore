@@ -1,0 +1,80 @@
+
+# PDF files
+*.pdf
+
+# C++ compiled binaries and object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Debugging and profiling
+*.dSYM/
+*.pdb
+*.ilk
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+core
+core.*
+
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+obj/
+Debug/
+Release/
+.cache/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+
+# Logs
+*.log
+code.cpp
+CODE_EXPLANATION.md
+*code*explanation*.md
+# Python artifacts (if used for scripts or benchmarking)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
