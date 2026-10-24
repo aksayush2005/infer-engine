@@ -6,7 +6,6 @@ A C++20 GGUF inference application with AVX2/FMA kernels and an interactive chat
 
 - `include/llm/` contains shared types, component interfaces, and inline class definitions.
 - `src/` contains GGUF, tokenizer, tensor operations, attention, inference, and application sources.
-- [`CODE_EXPLANATION.md`](CODE_EXPLANATION.md) describes the original implementation and module relationships.
 
 ## Prerequisites
 
